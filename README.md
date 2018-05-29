@@ -1,7 +1,9 @@
 # Open Stack
-
-## Description 
 Educational clone of [Stack](https://itunes.apple.com/gb/app/stack/id1080487957?mt=8) by [Ketchapp](http://www.ketchappstudio.com/) developed in Unity.
+
+![alt text](README_MEDIA/openstack1.png)
+
+![alt text](README_MEDIA/openstack2.png)
 
 ## Unity Version
 This project was developed in Unity 2018.1.1f1 
