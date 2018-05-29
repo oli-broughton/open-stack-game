@@ -1,0 +1,136 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1926334060249932}
+  m_IsPrefabParent: 1
+--- !u!1 &1926334060249932
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4716256662294980}
+  - component: {fileID: 114908518417762760}
+  - component: {fileID: 114108513870718182}
+  - component: {fileID: 114808534617762246}
+  - component: {fileID: 114427359099426084}
+  - component: {fileID: 114691768897445664}
+  m_Layer: 0
+  m_Name: Stack
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4716256662294980
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1926334060249932}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114108513870718182
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1926334060249932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e4fa31b5405e4b8583155b94542fcd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _haloConfig: {fileID: 11400000, guid: 005db4f848eb945898821b9e37a00528, type: 2}
+  _blockPrefabs:
+    StaticBlockPrefab: {fileID: 114196169532418952, guid: 916439773cf05154ca5de0edf11d0347,
+      type: 2}
+    StaticBlockRewardPrefab: {fileID: 114843685756245150, guid: 57a1f4f4a717049868be53c5eb7497c8,
+      type: 2}
+    PingPongBlock: {fileID: 114386736372760416, guid: d3b488e41d0fdfb419a0935bcf9f7004,
+      type: 2}
+    RigidbodyBlockPrefab: {fileID: 114908356924261564, guid: 5443c660ff2735340834156746f339b9,
+      type: 2}
+    GrowingBlockPrefab: {fileID: 114196169532418952, guid: 4f0133fa6a2f05c42960d53fd6b0fc0d,
+      type: 2}
+  _haloPrefabs:
+    HaloFadePrefab: {fileID: 114605783232223304, guid: af353a0fca2615642a0144be472be50f,
+      type: 2}
+    HaloPulseFadePrefab: {fileID: 114605783232223304, guid: d16b8f53ef4a7744681d68dd927bf11e,
+      type: 2}
+--- !u!114 &114427359099426084
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1926334060249932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45083c6fccd754ab298a0d4abec0f133, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _placeBlockInput: {fileID: 11400000, guid: 95a13a394c4684cc29a53a99fdf3014d, type: 2}
+--- !u!114 &114691768897445664
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1926334060249932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7469da77e363446baee25e0a03943e0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _autoPlay: 0
+--- !u!114 &114808534617762246
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1926334060249932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7099ada727664456a57b073630c3708, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _invokeEvents:
+    StartingGradientSelected: {fileID: 11400000, guid: e6e543b8f4465490386c3f9ec29002ff,
+      type: 2}
+    GradientChanged: {fileID: 11400000, guid: a25a8b7fa46ba4af598ce31530ddfca7, type: 2}
+  _palette: {fileID: 11400000, guid: 20080ab7a7c604f55a154faee9243fa9, type: 2}
+--- !u!114 &114908518417762760
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1926334060249932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aeb07273f5c2a004c91fd984587594ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _blockConfig: {fileID: 11400000, guid: 74e3b005d44ab4aa29b3c39e967b4798, type: 2}
+  _diffConfig: {fileID: 11400000, guid: 767f6b09fbbc34f5aa6d170ea91f0120, type: 2}
+  _stackConfig: {fileID: 11400000, guid: 9dedcbbdc8bbb43bd94eafdd092f41cb, type: 2}
+  _responseEvents:
+    SpawnNextBlock: {fileID: 11400000, guid: e35f3e4415a52435dbc0dbda9bee54dc, type: 2}
+  _invokeEvents:
+    BlockPlaced: {fileID: 11400000, guid: 1f2e461c84ea74cf18859dcf39ffa549, type: 2}
+    PerfectBlockPlaced: {fileID: 11400000, guid: a74a53fca03bc4c328881b2d9fb87ce3,
+      type: 2}
+    BlockCut: {fileID: 11400000, guid: 3986b3688f7634780bf74e4494ed64bd, type: 2}
+    BlockMissed: {fileID: 11400000, guid: 9feefe04214074f7f8b89568fa072b73, type: 2}

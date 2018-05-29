@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99fc56ae9dd824c57858605d39862fe1, type: 3}
+  m_Name: BlockConfig
+  m_EditorClassIdentifier: 
+  BlockStartingSize: {x: 9, y: 1, z: 9}
+  BlockPingPongLoopTime: 1.25
+  DestroyBlocksBelowHeight: -100
+  BlockGrowToScale: 1.5
+  BlockGrowTimeSeconds: 0.25
+  BlockGrowDelaySeconds: 0.25
